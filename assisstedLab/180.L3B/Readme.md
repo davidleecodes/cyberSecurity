@@ -77,7 +77,7 @@ Forwarded Events log showing entries from MS10
 - Enabled and verified log entries written to /var/log/kern.log
 
 ![iptables traffic](images/bash_kernLog.png)  
-Add screenshot: kern.log entries showing iptables traffic
+kern.log entries showing iptables traffic
 
 ### Step 2: Extract IPv4 Addresses Using grep
 
