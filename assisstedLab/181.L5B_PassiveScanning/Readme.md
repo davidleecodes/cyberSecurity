@@ -32,7 +32,7 @@ Aligned with **CompTIA CySA+** objectives:
 - Opened Wireshark on the `eth0` interface.
 - Changed layout to classic three-pane vertical format.
 
-![Wireshark interface ](images/wireshark_interface.jpg)  
+![Wireshark interface ](images/wireshark.jpg)  
 Wireshark interface with layout set to three vertical panes and eth0 interface capturing packets.
 
 ---
