@@ -3,4 +3,4 @@
 ## Overview
 
 Exploring the Lab
-[link](/tree/main/assisstedLab/180.L1)
+[link](/assisstedLab/180.L1)
