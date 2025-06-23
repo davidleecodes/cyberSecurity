@@ -1,72 +1,64 @@
-# Assited Labs
+# Cybersecurity Assisted Labs - Master Index
 
-## Overview
+This repository contains a series of assisted labs completed as part of a cybersecurity training program. Each lab focuses on a different key concept or technique used in cybersecurity analysis and defense, ranging from threat detection and log analysis to web vulnerabilities like XSS and CSRF.
 
-Exploring the Lab
-[link](/assisstedLab/180.L1)
+The labs were performed in a controlled environment using tools such as DVWA, Wireshark, Greenbone Security Assistant, and manual log analysis on Linux and Windows systems.
 
-Reviewing IoC and Threat Intelligence Sources
-[link](/assisstedLab/180.L2)
+Each lab is documented in its own README file with an explanation of the steps taken, findings, and key takeaways. Screenshots and Indicators of Compromise (IoCs) are included where applicable.
 
-Performing Threat Hunting
-[link](/assisstedLab/180.L2C)
+<!-- > These labs serve as both a learning log and a practical demonstration of hands-on cybersecurity skills. -->
 
-Configuring Centralized Logging
-[link](/assisstedLab/180.L3B)
+## Lab Index
 
-Assess Time Synch Errors
-[link](/assisstedLab/180.L3C)
+- [Exploring the Lab](/assisstedLab/180.L1)
 
-<!-- Configuring Automation
-[link](/assisstedLab/180.L4B) -->
+- [Reviewing IoC and Threat Intelligence Sources](/assisstedLab/180.L2)
 
-Performing Asset Discovery
-[link](/assisstedLab/181.L5B_AssetDiscovery)
+- [Performing Threat Hunting](/assisstedLab/180.L2C)
 
-Performing Passive Scanning
-[link](/assisstedLab/181.L5B_PassiveScanning)
+- [Configuring Centralized Logging](/assisstedLab/180.L3B)
 
-Performing Vulnerability Scanning  
-[link](/assisstedLab/181.L5C)
+- [Assess Time Synch Errors](/assisstedLab/180.L3C)
 
-Establishing Context Awareness
-[link](/assisstedLab/181.L6B)
+<!--
+- [Configuring Automation](/assisstedLab/180.L4B) -->
 
-Analyzing Vulnerability Reports
-[link](/assisstedLab/181.L7A)
+- [Performing Asset Discovery](/assisstedLab/181.L5B_AssetDiscovery)
 
-Detecting Legacy Systems
-[link](/assisstedLab/181.L7B)
+- [Performing Passive Scanning](/assisstedLab/181.L5B_PassiveScanning)
 
-<!-- Performing Playbook Incident Response
-[link](/assisstedLab/182.L8A_IncidentResponse) -->
+- [Performing Vulnerability Scanning](/assisstedLab/181.L5C)
 
-<!-- Performing Root Cause
-[link](/assisstedLab/182.L9) -->
+- [Establishing Context Awareness](/assisstedLab/181.L6B)
 
-Using File Analysis Techniques
-[link](/assisstedLab/183.L10A_FileAnalysis)
+- [Analyzing Vulnerability Reports](/assisstedLab/181.L7A)
 
-<!-- Analyzing Potentially Malicious Files
-[link](/assisstedLab/183.L10A_MaliciousFiles) -->
+- [Detecting Legacy Systems](/assisstedLab/181.L7B)
 
-<!-- Using Nontraditional Vulnerability Scanning Tools
-[link](/assisstedLab/183.L11C) -->
+<!--
+- [Performing Playbook Incident Response](/assisstedLab/182.L8A_IncidentResponse) -->
 
-<!-- Performing and Detecting Directory Traversal and Command Injection
-[link](/assisstedLab/184.14B_DirectoryTraversal_CommandInjection) -->
+<!--
+- [Performing Root Cause](/assisstedLab/182.L9) -->
 
-Performing and Detecting SQLI
-[link](/assisstedLab/184.14B_SQLi)
+- [Using File Analysis Techniques](/assisstedLab/183.L10A_FileAnalysis)
 
-Performing and Detecting XSS
-[link](/assisstedLab/184.14B_XSS)
+<!--
+- [Analyzing Potentially Malicious Files](/assisstedLab/183.L10A_MaliciousFiles) -->
 
-Analyzing Cloud Vulnerabilities
-[link](/assisstedLab/184.12B)
+<!--
+- [Using Nontraditional Vulnerability Scanning Tools](/assisstedLab/183.L11C) -->
 
-Exploiting Weak Cryptography
-[link](/assisstedLab/184.L14B_CSRF)
+<!--
+- [Performing and Detecting Directory Traversal and Command Injection](/assisstedLab/184.14B_DirectoryTraversal_CommandInjection) -->
 
-<!-- Performing and Detecting LFI/RFI
-[link](/assisstedLab/184.L14B_LFI_RFI) -->
+- [Performing and Detecting SQLI](/assisstedLab/184.14B_SQLi)
+
+- [Performing and Detecting XSS](/assisstedLab/184.14B_XSS)
+
+- [Analyzing Cloud Vulnerabilities](/assisstedLab/184.12B)
+
+- [Exploiting Weak Cryptography](/assisstedLab/184.L14B_CSRF)
+
+<!--
+- [Performing and Detecting LFI/RFI](/assisstedLab/184.L14B_LFI_RFI) -->
